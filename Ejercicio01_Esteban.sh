@@ -64,3 +64,5 @@ then
 	echo "El menor es: "$d
 	
 fi 
+
+echo "Wellintong paga la coca"
