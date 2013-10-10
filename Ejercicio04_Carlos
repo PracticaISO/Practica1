@@ -12,7 +12,7 @@ read numero
 suma=0
 a=0
 
-while [[ "numero" -lt 1 ]] 
+while [[ "numero" -lt 1 ]]
 do                          
     echo "Número incorrecto. Introduzca otro:"
     read a
