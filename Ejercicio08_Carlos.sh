@@ -11,12 +11,6 @@
 echo "Introduzca un número binario: "
 read numero
 
-if [[ ! "$numero" =~ ^[0-1]+$ ]]
-then
-    echo "El número no es binario, introduzca otro numero: "
-    read numero
-fi
-
 decimal=`echo "obase=10; ibase=2; $numero" | bc`
 octal=`echo "obase=8; ibase=2; $numero" | bc`
 hexadecimal=`echo "obase=16; ibase=2; $numero" | bc`
