@@ -1,5 +1,3 @@
-#http://www.cuantarazon.com/741842/sal-de-la-friendzone
-
 #!/bin/bash
 
 echo `cat /etc/passwd | grep "100[0-9]"|cut -f 1 -d :` > user
