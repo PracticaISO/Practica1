@@ -4,7 +4,7 @@
 
 nucleos=`cat /proc/cpuinfo | grep processor | wc -l`
 modelo=`cat /proc/cpuinfo | grep "model name" | awk -F:' ' '{ print $2 }'`
-#temperatura=`cat /proc/acpi/thermal_zone/*/temperature ¿?`
+
 if cat /proc/cpuinfo | egrep '(vmx|svn)' &>2
 then
 	virtualizacion="Sí"
